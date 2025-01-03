@@ -256,7 +256,7 @@ const Api = () => {
   const [nombreReceta, setNombreReceta] = useState("");
   const [editandoReceta, setEditandoReceta] = useState(null);
 
-  // Obtener lista de ingredientes
+  // Obt lista de ingredientes
   useEffect(() => {
     fetch("https://www.themealdb.com/api/json/v1/1/list.php?i=list")
       .then((respuesta) => respuesta.json())
